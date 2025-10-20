@@ -122,17 +122,18 @@ Since I'm using free-trial HubSpot, I send emails from gmail automatically. With
 
 ### Step 1: Run the contact_update file
 
-To generate 10 mock subscribers with different personas (targeted roles we are sending different contents to)
+To generate 10 mock subscribers with different personas (targeted roles we are sending different contents to).
 
-After running successfully, the mock contacts will be created and logged to the HubSpot contacts
+After running successfully, the mock contacts will be created and logged to the HubSpot contacts.
 
 ### Step 2: Run the content_generation file
 
-1. Input the topic you want to create newsletter contents about (e.g. AI automation)
-2. If the contents are generated successfully, you will see output like this:
-3. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
-4. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
-5. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
+1. Input the topic you want to create newsletter contents about (e.g. AI automation):
+   <img src="topic_input.png">
+3. If the contents are generated successfully, you will see output like this:
+4. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
+5. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
+6. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
 
 ### Step 3: Run the performance_data file
 
