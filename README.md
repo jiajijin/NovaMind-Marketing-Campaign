@@ -56,18 +56,20 @@ Your task: build an automated system from blog idea → newsletter distribution 
 
 ## Installation  
 1. Get a free OpenAI API Key
-👉 https://platform.openai.com/api-keys
+   https://platform.openai.com/api-keys
 
-   Get a free gmail account
+   Get a Gmail account with App Passwords enabled:
+   https://myaccount.google.com/apppasswords
 
-   Get a HubSpot account
+   Get a HubSpot account:
+   https://www.hubspot.com/
 
-3. Clone the repo
+2. Clone the repo
    ```sh
    git clone https://github.com/your_username/ai-marketing-pipeline.git
    cd ai-marketing-pipeline
 
-4. Install Python packages
+3. Install Python packages
    - For content_generation:
    ```sh
    pip install uuid
@@ -88,7 +90,7 @@ Your task: build an automated system from blog idea → newsletter distribution 
    pip install datetime
    
    ```
-5. Implement your personal openai API, HubSpot Token, and Gmail account
+4. Implement your personal openai API, HubSpot Token, and Gmail account
    ```sh
    # Replace this with your actual key — or use an environment variable
    # In both content_generation and contact_update files
@@ -107,12 +109,41 @@ Your task: build an automated system from blog idea → newsletter distribution 
     GMAIL_APP_PASSWORD = "qgfgxfpcflzucxfr"
    ```
   
-6. Change settings in HubSpot
-7. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+5. Change settings in HubSpot
+
+   1. Go to (`Settings`)
+  
+   2. Go to (`Legacy Apps`)
+  
+   3. Create a new App (e.g. NovaMind)
+  
+   4. Click on the App you created and go to "Edit app"
+  
+   5. Go to (`Scope`) and Add new scope.
+
+      Make sure you have at least these scopes:
+
+      (`crm.lists.read`)
+
+
+      (`crm.lists.write`)
+
+  
+      (`crm.objects.companies.read`)
+
+
+      (`crm.objects.companies.write`)
+
+
+      (`crm.objects.contacts.read`)
+
+
+      (`crm.objects.contacts.write`)
+
+      *These are necessary for logging and updating contacts to your HubSpot.
+    
+
+ 
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
