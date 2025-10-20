@@ -130,15 +130,19 @@ After running successfully, the mock contacts will be created and logged to the 
 
 1. Input the topic you want to create newsletter contents about (e.g. AI automation):
    <img src="topic_input.png">
+   
 2. If the contents are generated successfully, you will see output like this:
-   ("✅ Blogs saved to _AI_automation_blogs.json")
-3. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
+   (`✅ Blogs saved to _AI_automation_blogs.json`)
+   
+4. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
    <img src="json_generated.png">
-4. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
+   
+5. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
    <img src="contact_retrive.png">
    <img src="email_sent.png">
-5. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
    
+6. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
+   <img src="gmail.png">
    
 
 ### Step 3: Run the performance_data file
