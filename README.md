@@ -211,5 +211,10 @@ You will also see output like this (AI generated analysis on the performance dat
 ## Future Improvements
 - Format of the newsletters
 - Notes on Email Sending:
-Since the HubSpot free developer trial does not allow the full “Marketing Email Read/Write” scope, sending real emails via HubSpot is restricted. To demonstrate newsletter distribution functionality in this pipeline, we instead use Gmail SMTP to send emails to contacts. This approach allows the workflow to simulate real-world email delivery while staying within the limitations of the free HubSpot account. When using a paid HubSpot plan with full email API access, the Gmail integration can be replaced with HubSpot’s native email sending functionality.
+  Since the HubSpot free developer trial does not allow the full “Marketing Email Read/Write” scope, sending
+  real emails via HubSpot is restricted. To demonstrate newsletter distribution functionality in this
+  pipeline, we instead use Gmail SMTP to send emails to contacts. This approach allows the workflow to
+  simulate real-world email delivery while staying within the limitations of the free HubSpot account. When
+  using a paid HubSpot plan with full email API access, the Gmail integration can be replaced with HubSpot’s
+  native email sending functionality.
 
