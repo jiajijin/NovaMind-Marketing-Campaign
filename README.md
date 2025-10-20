@@ -131,7 +131,7 @@ After running successfully, the mock contacts will be created and logged to the 
 1. Input the topic you want to create newsletter contents about (e.g. AI automation):
    <img src="topic_input.png">
 2. If the contents are generated successfully, you will see output like this:
-   <img src="content_generation.png">
+   ("✅ Blogs saved to _AI_automation_blogs.json")
 3. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
    <img src="json_generated.png">
 4. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
