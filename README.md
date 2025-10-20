@@ -130,19 +130,27 @@ After running successfully, the mock contacts will be created and logged to the 
 
 1. Input the topic you want to create newsletter contents about (e.g. AI automation):
    <img src="topic_input.png">
-3. If the contents are generated successfully, you will see output like this:
-4. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
-5. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
-6. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
+2. If the contents are generated successfully, you will see output like this:
+   <img src="content_generation.png">
+3. The personalized newsletters generated will be stored into json file, and you should be able to see a json file called "AI_automation_blogs.json" in your python project file.
+   <img src="json_generated.png">
+4. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
+   <img src="contact_retrive.png">
+   <img src="email_sent.png">
+5. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
+   
+   
 
 ### Step 3: Run the performance_data file
 
 This python file works as the performance analysis automation.
 
 You will be asked to input how many weeks of performance you want to track:
+<img src="time_input.png">
 
 Then you will see a csv file called "newsletter_performance_detailed.csv" generated in your project file. This file stores contact email, contact persona, number of week, send date, whether the contact opened, whether the contact clicked, and whether the contact unsubscribed our newsletters.
 
 You will also see output like this (AI generated analysis on the performance data):
+<img src="performance_analysis.png">
 
 
