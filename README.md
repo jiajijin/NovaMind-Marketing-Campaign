@@ -87,8 +87,8 @@ The AI-Powered Marketing Content Pipeline automates content generation, distribu
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username/ai-marketing-pipeline.git
-   cd ai-marketing-pipeline
+   git clone https://github.com/jiajijin/NovaMind-Marketing-Campaign.git
+   ```
 
 3. Install Python packages
    - For content_generation:
