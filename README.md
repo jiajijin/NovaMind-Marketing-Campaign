@@ -111,34 +111,34 @@ Your task: build an automated system from blog idea → newsletter distribution 
   
 5. Change settings in HubSpot
 
-   1. Go to (`Settings`)
+   1. Go to `Settings`
   
-   2. Go to (`Legacy Apps`)
+   2. Go to `Legacy Apps`
   
    3. Create a new App (e.g. NovaMind)
   
    4. Click on the App you created and go to "Edit app"
   
-   5. Go to (`Scope`) and Add new scope.
+   5. Go to `Scope` and Add new scope.
 
       Make sure you have at least these scopes:
 
-      (`crm.lists.read`)
+      `crm.lists.read`
 
 
-      (`crm.lists.write`)
+      `crm.lists.write`
 
   
-      (`crm.objects.companies.read`)
+      `crm.objects.companies.read`
 
 
-      (`crm.objects.companies.write`)
+      `crm.objects.companies.write`
 
 
-      (`crm.objects.contacts.read`)
+      `crm.objects.contacts.read`
 
 
-      (`crm.objects.contacts.write`)
+      `crm.objects.contacts.write`
 
       *These are necessary for logging and updating contacts to your HubSpot.
     
@@ -169,7 +169,6 @@ After running successfully, the mock contacts will be created and logged to the 
    <img src="json_generated.png">
    
 5. Then the newsletters will be sent to different subscribers based on their titles (creatives, founders, operators), and you will see output like this:
-   <img src="contact_retrive.png">
    <img src="email_sent.png">
    
 6. Since the contacts are fake, even though the emails are sent successfully, you will see notifications like this from your gmail account:
