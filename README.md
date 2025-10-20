@@ -8,13 +8,8 @@
 - [Architecture & Flow](#architecture--flow)  
 - [Installation](#installation)  
 - [Usage](#usage)  
-- [Project Structure](#project-structure)  
 - [Assumptions & Notes](#assumptions--notes)  
-- [API / CRM Integration Details](#api--crm-integration-details)  
-- [Performance Logging & Analysis](#performance-logging--analysis)  
 - [Future Improvements](#future-improvements)  
-- [License](#license)  
-- [Author](#author)  
 
 ---
 
@@ -52,7 +47,34 @@ Your task: build an automated system from blog idea → newsletter distribution 
 
 ## Architecture & Flow  
 
+The AI-Powered Marketing Content Pipeline automates content generation, distribution, and performance analysis for newsletters and blogs. It consists of three main components:
+
+1. **Content Generation**
+   - **Input:** Topic string (e.g., "AI in creative automation")
+   - **Process:** Uses OpenAI API to generate:
+     - Blog draft (~400–600 words)
+     - Three persona-specific newsletter versions
+   - **Output:** Structured JSON containing blog and newsletter content
+
+2. **CRM & Newsletter Distribution**
+   - **Input:** Generated newsletters and contact list
+   - **Process:**
+     - Retrieve or create contacts from HubSpot CRM
+     - Tag contacts by persona
+     - Send personalized newsletters
+     - Log campaign metadata and simulated performance
+   - **Output:** Sent newsletters and logged campaign data in CRM
+
+3. **Performance Logging & Analysis**
+   - **Input:** Newsletter engagement data (simulated)
+   - **Process:**
+     - Simulate open, click, and unsubscribe rates
+     - Summarize performance using OpenAI API
+     - Suggest improvements for next campaigns
+   - **Output:** CSV files with historical performance data and AI-generated insights
+
 ---
+
 
 ## Installation  
 1. Get a free OpenAI API Key
